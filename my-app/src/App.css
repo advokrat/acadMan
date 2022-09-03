@@ -1,0 +1,224 @@
+html, body, #App, #App>div {
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+  margin: 0% 15% 0% 15%;
+  /* padding: 2% 10% 5% 10%  ; */
+  width:70%;
+  min-height: 100vh;
+  position: absolute;
+  color: white;
+  min-width: 700px;
+  border-style:solid;
+  border-width: 0 0.05cm 0 0.05cm;
+  border-color: gray;
+  border-radius: 0.1cm;
+  box-shadow: 3px 3px 3px 3px #888888;
+}
+
+.nav-menu-elements {
+  padding-left: 1em;
+  padding-right: 1em;
+  color: #696b69;
+  text-decoration: none;  
+  justify-content: space-between;
+}
+#nav-menu {
+  padding: 2em;
+  background-color: #dbdbdb;
+}
+
+.notes-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 2% 10% 5% 10% ;
+  margin: 2% 10% 5% 10%;
+  min-width: 500px;
+}
+
+.input-text {
+  height: 30px;
+  width: 60%;
+  border-width: 0.05cm 0.05cm 0.05cm 0.05cm;
+  border-color: gray;
+  border-radius: 0.1cm;
+}
+
+.input-select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input-textarea {
+  width: 100%;
+  padding: 2% 2%;
+  /* margin: 5%; */
+  /* justify-content; */
+  display: inline;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+.input-title {
+  width: 100%;
+  padding: 2% 2%;
+  /* margin: 5%; */
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input-tag {
+  position: relative;
+  width: 50%;
+  padding: 2% 2%;
+  margin: 2% 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#button-input-clubbed {
+  
+}
+
+
+.button-submit{
+  width: 20%;
+  background-color: #474948;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-cancel{
+  width: 20%;
+  background-color: #f0f5f3;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.form-label {
+  display: inline-block;
+}
+/* select { 
+  text-align:center; 
+}
+
+.center-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.on {
+  color: orange;
+}
+.off {
+  color: #ccc;
+}
+
+.mb-3{
+  width:50%;
+  margin:0px auto;
+}
+
+.star{
+  font-size: 35px;
+}
+
+.input{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+:root {
+  --fc-background-color: white;
+  --fc-border-color: white;
+  --fc-daygrid-event-dot-width: 5px;
+}
+
+/* body {
+  padding: 100px;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.nav.nav-pills .nav-link.active {
+	/* background-color: greenyellow; */
+}
+.nav.nav-pills .nav-link {
+}
+
+.rounded-circle {
+	border: none;
+}
+
+.pill-button {
+	border-radius: 23px;
+}
